@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgrey;
+    height: 10vh;
+}
+
+.header .title {
+    margin-top: 8px;
+}
+
+.header .addButton {
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 500px) {
+    .header .addButton {
+        display: none;
+    }
+}
