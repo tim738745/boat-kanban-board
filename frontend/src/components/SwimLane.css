@@ -19,6 +19,7 @@
 @media screen and (max-width: 500px) {
     .swimLane {
         width: 100%;
+        border-right: none;
         border-bottom: solid;
     }
 }
